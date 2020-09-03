@@ -36,9 +36,9 @@ resource "helm_release" "jupiter" {
 1. Make sure you still have `go` installed (`brew install go`)
 1. `VERSION=X.Y.Z make build` (don't include the `v` before the version)
 1. Follow the instructions [here](https://www.terraform.io/docs/extend/how-terraform-works.html#plugin-locations) to install the plugin
-1. `terraform init`
-1. `terraform plan`
-1. `terraform apply`
+1. Run `terraform init`
+1. Run `terraform plan`
+1. Run `terraform apply`
 1. Repeat steps 3-7 as you make changes.
 
 ## Publishing
