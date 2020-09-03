@@ -1,0 +1,5 @@
+# Ignore publish directory
+publish/
+
+# Ignore built binaries
+terraform-provider-hex
