@@ -3,3 +3,6 @@ publish/
 
 # Ignore built binaries
 terraform-provider-hex
+
+# Ignore .DS_Store
+.DS_Store
