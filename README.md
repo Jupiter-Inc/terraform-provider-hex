@@ -42,6 +42,7 @@ resource "helm_release" "jupiter" {
 1. Repeat steps 3-7 as you make changes.
 
 ## Publishing
+The [Jupiter-Inc/terraform-provider-hex](https://github.com/Jupiter-Inc/terraform-provider-hex) repository is published from the main Jupiter platform repository (private).
 
 1. Make sure you have `hub` installed (`brew install hub`)
 1. `VERSION=X.Y.Z make publish` (don't include the `v` before the version)
